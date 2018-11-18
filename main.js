@@ -1,1 +1,4 @@
-document.getElementById(form).submit();
+function sendEmail() {
+  var x = document.getElementById("email").value;
+  console.log(x);
+}

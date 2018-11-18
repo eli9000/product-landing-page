@@ -43,7 +43,7 @@ a:hover {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  box-shadow: 0 4px 8px 0 blue, 0 3px 10px 0 #666;
+  box-shadow: 0 4px 8px 0 #ccc, 0 3px 10px 0 #666;
 }
 
 /* Header Elements ------------------------- */
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .nav-link {
-  border-left: 2px solid blue;
+  border-left: 2px solid #666;
 }
 
 /* Main Body Elements ------------------------- */
@@ -112,6 +112,10 @@ a:hover {
   max-width: 300px;
   padding: 15px;
   background-color: #555;
+}
+
+.box:hover {
+  box-shadow: 0 4px 8px 0 #ccc, 0 3px 10px 0 #666;
 }
 
 .box-title {

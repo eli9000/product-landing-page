@@ -58,16 +58,17 @@
         <div class="container">
           <h1 class="video-title">Peep the Epicness that is PUKA</h1>
           <iframe
-            id="video"
-            src="https://www.youtube.com/watch?v=PXXSQNSuQM4"
+            src="https://www.youtube.com/embed/PXXSQNSuQM4"
             frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
           ></iframe>
         </div>
       </div>
       <div class="wrapper form" id="order">
         <div class="container">
           <h1 class="form-title">Place your order below</h1>
-          <form id="form" action="submit">
+          <form id="form">
             <fieldset>
               <legend>PUKA for LIFE</legend>
               <div class="orderform">
@@ -82,11 +83,14 @@
                   placeholder="Enter your phone number"
                 />
                 <input
+                  id="email"
                   type="email"
                   class="field email"
                   placeholder="Enter your email"
                 />
-                <button id="submit" type="submit">Place Order</button>
+                <button id="submit" type="submit" onclick="sendEmail()">
+                  Place Order
+                </button>
               </div>
             </fieldset>
           </form>
