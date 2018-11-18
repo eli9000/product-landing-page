@@ -17,32 +17,35 @@
       <nav id="nav-bar">
         <ul>
           <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#video">Video</a></li>
-          <li class="nav-link"><a href="#form">Order</a></li>
+          <li class="nav-link"><a href="#vid">Video</a></li>
+          <li class="nav-link"><a href="#order">Order</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="home">
       <h1 class="main-title">Welcome! Buy my awsome product!</h1>
-      <div class="about" id="about">
+      <div class="wrapper about" id="about">
+        <h1>All about eDots Puka Shells</h1>
         <div class="container">
           <div class="box">
-            <h2 class="box-title">Where</h2>
+            <h2 class="box-title">WHERE</h2>
             <p>
               Where do we get our shells from you ask? From the ocean of course
-              you dummy!
+              you dummy! More precicely from the collections of the Little
+              Mermaid herself.
             </p>
           </div>
           <div class="box">
-            <h2 class="box-title">When</h2>
+            <h2 class="box-title">WHEN</h2>
             <p>
-              When is a good time to where Puka Shells? Whenever you want to be
-              the coolest persone in the room, obviously.
+              When is a good time to wear Puka Shells? Whenever you want to be
+              the coolest persone in the room, obviously. Let the Puka life FLOW
+              thru you.
             </p>
           </div>
           <div class="box">
-            <h2 class="box-title">Why</h2>
+            <h2 class="box-title">WHY</h2>
             <p>
               Why should you wear Puka Shells? Aside from the opposite sex
               finding them irresistable, they have been known to give the wearer
@@ -51,17 +54,47 @@
           </div>
         </div>
       </div>
-      <div class="video" id="video">
+      <div class="wrapper video" id="vid">
         <div class="container">
-          <h1 class="video-title">This is the Video Title</h1>
+          <h1 class="video-title">Peep the Epicness that is PUKA</h1>
+          <iframe
+            id="video"
+            src="https://www.youtube.com/watch?v=PXXSQNSuQM4"
+            frameborder="0"
+          ></iframe>
         </div>
       </div>
-      <div class="form" id="form">
+      <div class="wrapper form" id="order">
         <div class="container">
-          <h1 class="form-title">This is the Form Title</h1>
-          <input type="email" class="email" placeholder="Enter your email" />
+          <h1 class="form-title">Place your order below</h1>
+          <form id="form" action="submit">
+            <fieldset>
+              <legend>PUKA for LIFE</legend>
+              <div class="orderform">
+                <input
+                  type="text"
+                  class="field name"
+                  placeholder="Enter your name"
+                />
+                <input
+                  type="phone"
+                  class="field number"
+                  placeholder="Enter your phone number"
+                />
+                <input
+                  type="email"
+                  class="field email"
+                  placeholder="Enter your email"
+                />
+                <button id="submit" type="submit">Place Order</button>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="wrapper">&copy; Copyright 2018 - eDot Puka Shells Inc.</div>
+    </footer>
   </body>
 </html>
